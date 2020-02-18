@@ -1,12 +1,10 @@
 {
   "compileOnSave": false,
-  "annotateForClosureCompiler": false,
   "compilerOptions": {
     "outDir": "./dist",
     "baseUrl": "src",
     "sourceMap": true,
     "declaration": false,
-    "importHelpers": true,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -15,13 +13,11 @@
       "node_modules/@types"
     ],
     "lib": [
-      "es2017",
+      "es2016",
       "dom"
     ],
     "paths": {
-      "ng-gantt": [
-        "dist/ng-gantt"
-      ]
+      "jsgantt-improved": [ "dist/jsgantt-improved" ]
     }
   },
   "exclude": [

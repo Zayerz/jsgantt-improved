@@ -12,7 +12,7 @@ exports.config = {
     'browserName': 'chrome'
   },
   directConnect: true,
-  baseUrl: 'http://localhost:4200/',
+  baseUrl: 'http://localhost:8081/',
   framework: 'jasmine',
   jasmineNodeOpts: {
     showColors: true,
@@ -20,6 +20,7 @@ exports.config = {
     print: function() {}
   },
   onPrepare() {
+    browser.ignoreSynchronization = true;
     require('ts-node').register({
       project: 'e2e/tsconfig.e2e.json'
     });
