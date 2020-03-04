@@ -143,7 +143,7 @@ exports.drawSelector = function (pPos) {
             vDisplay = true;
     }
     if (vDisplay) {
-        var vTmpDiv = exports.newNode(vOutput, 'div', null, 'gselector', this.vLangs[this.vLang]['format'] + ':');
+        // var vTmpDiv = exports.newNode(vOutput, 'div', null, 'gselector', this.vLangs[this.vLang]['format'] + ':');
         if (this.vFormatArr.join().toLowerCase().indexOf('hour') != -1)
             events_1.addFormatListeners(this, 'hour', exports.newNode(vTmpDiv, 'span', this.vDivId + 'formathour' + pPos, 'gformlabel' + ((this.vFormat == 'hour') ? ' gselected' : ''), this.vLangs[this.vLang]['hour']));
         if (this.vFormatArr.join().toLowerCase().indexOf('day') != -1)
