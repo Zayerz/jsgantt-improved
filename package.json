@@ -1,12 +1,12 @@
 {
   "_args": [
     [
-      "jsgantt-improved@2.5.5",
+      "jsgantt-improved@2.5.6",
       "/Users/gus/Contac/prime-web-app/SRC"
     ]
   ],
-  "_from": "jsgantt-improved@2.5.5",
-  "_id": "jsgantt-improved@2.5.5",
+  "_from": "jsgantt-improved@2.5.6",
+  "_id": "jsgantt-improved@2.5.6",
   "_inBundle": false,
   "_integrity": "sha512-L0Iq6GWAwL/GjrPsHoV7Ru2EM6Jibn1vOohuk5cMX8YOTbyg+Rf89QB2Ox68RQbGc8cjWJC1Epvap2cpXdaYWQ==",
   "_location": "/jsgantt-improved",
@@ -14,12 +14,12 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "jsgantt-improved@2.5.5",
+    "raw": "jsgantt-improved@2.5.6",
     "name": "jsgantt-improved",
     "escapedName": "jsgantt-improved",
-    "rawSpec": "2.5.5",
+    "rawSpec": "2.5.6",
     "saveSpec": null,
-    "fetchSpec": "2.5.5"
+    "fetchSpec": "2.5.6"
   },
   "_requiredBy": [
     "/"
