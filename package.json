@@ -1,42 +1,35 @@
 {
   "_args": [
     [
-      "jsgantt-improved@2.5.6"
+      "jsgantt-improved-prime@2.5.6"
     ]
   ],
-  "_from": "jsgantt-improved@2.5.6",
-  "_id": "jsgantt-improved@2.5.6",
+  "_from": "jsgantt-improved-prime@2.5.6",
   "_inBundle": false,
   "_integrity": "sha512-L0Iq6GWAwL/GjrPsHoV7Ru2EM6Jibn1vOohuk5cMX8YOTbyg+Rf89QB2Ox68RQbGc8cjWJC1Epvap2cpXdaYWQ==",
-  "_location": "/jsgantt-improved",
+  "_location": "/jsgantt-improved-prime",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "jsgantt-improved@2.5.6",
-    "name": "jsgantt-improved",
-    "escapedName": "jsgantt-improved",
-    "rawSpec": "2.5.6",
+    "raw": "jsgantt-improved-prime@2.5.6",
+    "name": "jsgantt-improved-prime",
+    "escapedName": "jsgantt-improved-prime",
+    "rawSpec": "2.5.5",
     "saveSpec": null,
-    "fetchSpec": "2.5.6"
+    "fetchSpec": "2.5.5"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/jsgantt-improved/-/jsgantt-improved-2.5.5.tgz",
+  "_resolved": "https://registry.npmjs.org/jsgantt-improved-prime/-/jsgantt-improved-prime-2.5.5.tgz",
   "_spec": "2.5.5",
   "_where": "/Users/gus/Contac/prime-web-app/SRC",
-  "author": {
-    "name": "Eduardo Rodrigues, Ricardo Cardoso, Mario Mol",
-    "email": "mariohmol@gmail.com"
-  },
-  "bugs": {
-    "url": "https://github.com/jsGanttImproved/jsgantt-improved/issues"
-  },
+  "author": "Gustavo Plaza",
   "dependencies": {
     "@types/node": "^12.0.10"
   },
-  "description": "jsgantt-improved",
+  "description": "jsgantt-improved-prime",
   "devDependencies": {
     "@types/chai": "^4.1.5",
     "@types/jasmine": "^3.3.0",
@@ -51,13 +44,13 @@
     "ts-node": "^7.0.1",
     "typescript": "^3.0.3"
   },
-  "homepage": "https://jsganttimproved.github.io/jsgantt-improved/",
+  "homepage": "https://github.com/Zayerz/jsgantt-improved-prime.git",
   "license": "ISC",
   "main": "dist/index.js",
-  "name": "jsgantt-improved",
+  "name": "jsgantt-improved-prime",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jsGanttImproved/jsgantt-improved.git"
+    "url": "https://github.com/Zayerz/jsgantt-improved-prime.git"
   },
   "scripts": {
     "browserify": "browserify dist/index.js --standalone JSGantt > jsgantt.js",
@@ -74,8 +67,15 @@
     "watch:build": "onchange 'src/**' '*.*' -- npm run build",
     "watch:test": "onchange 'src/**/*.ts' '*.ts' -- npm run test"
   },
-  "publishConfig": { 
-    "registry": "https://npm.pkg.github.com/" 
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
-  "version": "2.5.6"
+  "version": "2.5.6",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "keywords": [
+    "jsgantt"
+  ]
 }
